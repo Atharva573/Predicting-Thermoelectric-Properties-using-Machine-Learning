@@ -1,0 +1,2 @@
+# Predicting-Thermoelectric-Properties-using-Machine-Learning
+A ML project to predict key thermoelectric properties—Lattice Thermal Conductivity, Seebeck Coefficient, and Electrical Conductivity—using simple elemental descriptors. The model is trained on a broad dataset of ~5200 data points, leveraging techniques like XGBoost and Random Forest, achieving high accuracy in thermal conductivity predictions.
