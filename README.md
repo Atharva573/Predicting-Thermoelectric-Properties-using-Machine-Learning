@@ -10,7 +10,6 @@ Accurate prediction of thermoelectric performance is essential for the discovery
 
 ## 📘 Project Overview
 
-- **Model Focus:** 
 - **Data:** 5205 samples, 880 unique compounds (mostly tellurides & selenides)
 - **Features:** 18 elemental descriptors including atomic number, electronegativity, melting point, thermal conductivity, and temperature.
 - **Targets:**  
