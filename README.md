@@ -1,8 +1,9 @@
 # Predicting-Thermoelectric-Properties-using-Machine-Learning
 A ML project to predict key thermoelectric properties—Lattice Thermal Conductivity, Seebeck Coefficient, and Electrical Conductivity—using simple elemental descriptors. The model is trained on a broad dataset of ~5200 data points, leveraging techniques like XGBoost and Random Forest, achieving high accuracy in thermal conductivity predictions.
+
 # ML-Based Prediction of Thermoelectric Properties
 
-This repository hosts the code and data used for building machine learning models to predict critical thermoelectric properties—**Lattice Thermal Conductivity**, **Seebeck Coefficient**, and **Electrical Conductivity**—based on simple elemental features.
+This repository contains code and data for building machine learning models that predict key thermoelectric properties **Lattice Thermal Conductivity** and **Seebeck Coefficient** using only elemental descriptors. These models attempts to eliminate the need for computationally intensive ab initio methods by enabling fast, data-driven predictions.
 
 ## 🔍 Motivation
 
@@ -15,11 +16,9 @@ Accurate prediction of thermoelectric performance is essential for the discovery
 - **Targets:**  
   - Lattice Thermal Conductivity  
   - Seebeck Coefficient  
-  - Electrical Conductivity
 
-## 🧠 Algorithms Used
-
-- Linear Regression & Ridge Regression  
+  ## 🧠 Algorithms Used
+ 
 - K-Nearest Neighbors (KNN)  
 - Random Forest Regressor (with and without RFE)  
 - XGBoost Regressor (with and without RFE)
@@ -32,9 +31,7 @@ Accurate prediction of thermoelectric performance is essential for the discovery
 - **Seebeck Coefficient**:  
   - Random Forest & XGBoost performed well  
   - Feature importance aligned with domain knowledge  
-- **Electrical Conductivity**:  
-  - Poor results using current features → Future work identified
-
+  
 ## 🧪 Candidate Testing
 
 Predictions were made on two test sets:
@@ -44,8 +41,6 @@ Predictions were made on two test sets:
 ## 🔍 Folder Structure
 📁 data/ — training sets & candidate sets  
 📁 notebooks/ — model training notebooks  
-📁 models/ — saved ML models  
-📁 results/ — plots & metrics  
 📁 candidate set/- Testing the model on unseen chemstries 
 📄 README.md, LICENSE, requirements.txt  
 
